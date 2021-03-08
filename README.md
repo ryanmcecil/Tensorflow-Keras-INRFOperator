@@ -13,8 +13,7 @@ Malo. Link: https://www.nature.com/articles/s41598-020-73113-0.
 
 Note: The nonlinearity used in this implemtation is Relu.
 
-
-The code for this operator is compiled using bazel. 
+Note: The code for this operator is compiled using bazel. 
 
 ## Code Description
 

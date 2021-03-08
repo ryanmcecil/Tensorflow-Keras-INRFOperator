@@ -39,7 +39,7 @@ bash INRF2Build.sh (INRF2dBuild.sh may have to be changed depending on the numbe
 
 The compiled operator should be now stored as 
 
-bazel-bin/tensorflow/core/user_ops/INRF2d_gpu.so
+{Tensorflow directory}/bazel-bin/tensorflow/core/user_ops/INRF2d_gpu.so
 
 
 Now, take the directory, INRFOp and integrate it into the project that you wish to use the INRF operator for. In the INRFOp

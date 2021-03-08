@@ -11,7 +11,7 @@ Alex Gomez-Villa, Adrian Martin, Javier Vazquez-Corral, David Kane, & Jesus
 Malo. Link: https://www.nature.com/articles/s41598-020-73113-0.
 
 
-The nonlinearity used in the INRF operator is Relu.
+Note: The nonlinearity used in this implemtation is Relu.
 
 
 The code for this operator is compiled using bazel. 

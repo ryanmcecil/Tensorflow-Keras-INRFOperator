@@ -1,4 +1,4 @@
-Code written by Ryan Cecil under Stacey Levine, Ph.D.
+Code written by Ryan Cecil as Research Assistant under Stacey Levine, Ph.D.
 Duquesne University 2020
 
 

@@ -4,11 +4,11 @@ Code written by Ryan Cecil as Research Assistant under Stacey Levine, Ph.D.
 Duquesne University 2020
 
 ## Summary
-A CUDA/C++ implementation based on INRF equation found in the following paper:
+A CUDA/C++ implementation of Intrinsically Nonlinear Receptive Field operator (INRF). For use with Tensorflow. The equation for an INRF can be ound in the following paper:
 Evidence for the intrinsically nonlinear
 nature of receptive fields in vision by Marcelo Bertalmio,
 Alex Gomez-Villa, Adrian Martin, Javier Vazquez-Corral, David Kane, & Jesus
-Malo. Link: https://www.nature.com/articles/s41598-020-73113-0
+Malo. Link: https://www.nature.com/articles/s41598-020-73113-0.
 
 
 The nonlinearity used in the INRF operator is Relu.

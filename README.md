@@ -1,7 +1,9 @@
+# Tensorflow-Keras-INRFOperator
+
 Code written by Ryan Cecil as Research Assistant under Stacey Levine, Ph.D.
 Duquesne University 2020
 
-#Summary
+## Summary
 A CUDA/C++ implementation based on INRF equation found in the following paper:
 Evidence for the intrinsically nonlinear
 nature of receptive fields in vision by Marcelo Bertalmio,
@@ -14,8 +16,18 @@ The nonlinearity used in the INRF operator is Relu.
 
 The code for this operator is compiled using bazel. 
 
-Here is 
+## Code Description
 
+INRF2d directory - Contains the C++ code for implementing the operator and the Bazel build code for compiling it.
+
+
+INRFOp - To be integrated into Python project. Contains code for loading INRF2d operator into Tensorflow and using it as a Tensorflow function.
+
+
+INRF2dBuild.sh - A bash file for compiling the operator with bazel
+
+
+## How to Use
 
 To compile and use the operator. Download Tensorflow's Source code from: https://github.com/tensorflow/tensorflow
 Then, add the INRF2d directory to the user_ops directory within Tensorflow. Place INRF2dBuild.sh at the top of the Tensorflow directory.

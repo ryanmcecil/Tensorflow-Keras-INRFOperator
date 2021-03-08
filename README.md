@@ -1,7 +1,7 @@
 Code written by Ryan Cecil as Research Assistant under Stacey Levine, Ph.D.
 Duquesne University 2020
 
-
+#Summary
 A CUDA/C++ implementation based on INRF equation found in the following paper:
 Evidence for the intrinsically nonlinear
 nature of receptive fields in vision by Marcelo Bertalmio,
@@ -13,6 +13,8 @@ The nonlinearity used in the INRF operator is Relu.
 
 
 The code for this operator is compiled using bazel. 
+
+Here is 
 
 
 To compile and use the operator. Download Tensorflow's Source code from: https://github.com/tensorflow/tensorflow

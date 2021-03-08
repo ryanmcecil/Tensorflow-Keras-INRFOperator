@@ -36,5 +36,5 @@ directory, change
 
 
 to contain the path to your tensorflow directory and the compiled operator. Then, the INRF2d operator 
-should now be importable into your files using from INRFOp import INRF2d.
+should now be importable into your Python files using {from INRFOp import INRF2d}.
 
